@@ -1,0 +1,32 @@
+:root {
+    --primary-dark: #333;
+    --primary-light: #ededed;
+    --secondary-light: #fefefe;
+  }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.buttons{
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    border: 1px solid var(--primary-dark);
+    border-radius: 5px;
+}
+.grid{
+    width: 800px;
+    height: 550px;
+    margin: 0 auto;
+    display: grid;
+}
+.item{
+    border: 1px solid black;
+}
